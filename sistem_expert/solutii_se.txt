@@ -1,0 +1,173 @@
+{ 'Costin Raileanu' }
+text descriere { 'Costin este un baiat 
+deschis, amabil, mereu incantat sa ofere 
+ajutorul celorlalti. Este o persoana 
+sensibila si romantica si isi doreste 
+sa cunoasca o fata care este dispusa sa 
+puna mult suflet intr-o relatie' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[22]}
+{zodie#[balanta]}
+{hobby#[gatit]}
+}
+imagine {'costin.png'}
+
+/////////////////////////////////////////
+
+{ 'Razvan Paraschiv' }
+text descriere { 'Razvan este un tip sigur 
+pe el si este mereu in cautare de nou si 
+diversitate. Chiar daca se dedica foarte 
+mult sarcinilor pe care le are de 
+indeplinit, familia si prietenii vor 
+reprezenta mereu cea mai mare prioritate 
+pentru el' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[21]}
+{zodie#[fecioara]}
+{hobby#[basket]}
+}
+imagine {'razvan_paraschiv.png'}
+
+/////////////////////////////////////////
+
+{ 'Alexandra Cazan' }
+text descriere { 'Alexandra se face 
+remarcata prin simtul umorului, atitudinea 
+optimista si relaxata cu care abordeaza 
+orice situatie. Este o fire deschisa, 
+prietenoasa, care te face mereu sa te 
+simti bine in compania ei' }
+proprietati solutie {
+{grupa#[353]}
+{varsta#[21]}
+{zodie#[sagetator]}
+{hobby#[sport]}
+}
+imagine {'ale.png'}
+
+/////////////////////////////////////////
+
+{ 'Clara Vasile' }
+text descriere { 'Clara vrea sa se 
+distreze si sa fie mereu implicata in 
+lucrurile de care vorbeste toata lumea! 
+Are inclinatii artistice si un simt al 
+modei deosebit. Totodata, este o persoana 
+deschisa si o prietena de incredere' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[21]}
+{zodie#[rac]}
+{hobby#[fotografie]}
+}
+imagine {'clara.png'}
+
+/////////////////////////////////////////
+
+{ 'Razvan Georgescu' }
+text descriere { 'Razvan este un baiat 
+serios, constiincios, care isi duce mereu 
+la bun sfarsit atributiile. Este o persoana 
+pe care poti sa te bazezi oricand ai nevoie, 
+este foarte atent si grijuliu cu cei din jur. 
+Razvan nu este cel mai dezinvolt baiat, dar 
+este un prieten de nadejde' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[22]}
+{zodie#[berbec]}
+{hobby#[gaming]}
+}
+imagine {'razvan_georgescu.png'}
+
+/////////////////////////////////////////
+
+{ 'Maria Rotariu' }
+text descriere { 'Maria este o persoana 
+calma, sensibila si responsabila. Se 
+identifica cu un stil de viata simplu si 
+ordonat, în care familia se regaseste pe 
+primul loc' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[21]}
+{zodie#[leu]}
+{hobby#[desen]}
+}
+imagine {'maria.png'}
+
+/////////////////////////////////////////
+
+{ 'Mihaela Tocana' }
+text descriere { 'Mihaela este o persoana 
+cu capul pe umeri, puternica si ambitioasa. 
+Isi doreste o relatie statornica, bazata 
+pe sinceritate. Nu-i prea place sa iasa 
+din zona de comfort, insa este o fata 
+foarte optimista si plina de viata' }
+proprietati solutie {
+{grupa#[353]}
+{varsta#[24]}
+{zodie#[capricorn]}
+{hobby#[citit]}
+}
+imagine {'mihaela.png'}
+
+/////////////////////////////////////////
+
+{ 'Diana Tudosa' }
+text descriere { 'Diana este foarte sigura 
+pe ea, isi doreste in mod constant sa se 
+autodepaseasca si sa se perfectioneze in 
+ceea ce face. Ii place sa adauge o nota 
+artistica in toate sarcinile pe care le 
+are de indeplinit. Este totodata o 
+persoana pozitiva, energica si amuzanta' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[21]}
+{zodie#[rac]}
+{hobby#[desen]}
+}
+imagine {'diana.png'}
+
+/////////////////////////////////////////
+
+{ 'Raluca Radu' }
+text descriere { 'Ralucai ii place sa faca 
+toate lucrurile cat mai bine. Este foarte 
+determinata sa invete si sa munceasca pentru 
+a-si indeplini visurile. Este o persoana 
+sensibila si atenta cu prietenii si 
+apropiatii ei. Isi doreste sa aiba alaturi 
+un partener istet, puternic si devotat' }
+proprietati solutie {
+{grupa#[353]}
+{varsta#[21]}
+{zodie#[rac]}
+{hobby#[citit]}
+}
+imagine {'raluca.png'}
+
+/////////////////////////////////////////
+
+{ 'Stefan Mesteacan' }
+text descriere { 'Stefan are incredere ca 
+va reusi sa ajunga acolo unde-si propune. 
+Este o fire motivata si calculata si va 
+incerca sa faca mereu cat mai bine lucrurile 
+importante pentru el. Familia reprezinta o 
+componenta de baza in planurile sale de 
+viitor' }
+proprietati solutie {
+{grupa#[351]}
+{varsta#[21]}
+{zodie#[sagetator]}
+{hobby#[masini]} 
+}
+imagine {'stefan.png'}
+
+/////////////////////////////////////////

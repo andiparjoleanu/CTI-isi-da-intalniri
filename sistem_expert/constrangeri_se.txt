@@ -1,0 +1,9 @@
+numar_copii.
+ordine.
+loc_vacanta.
+alegere_tinuta.
+nepasare.
+desfasurare_sarbatori.
+relatie_divinitate.
+sinceritate.
+spontaneitate.

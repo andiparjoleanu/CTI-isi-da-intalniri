@@ -1,0 +1,1236 @@
+scop @ student_cti.
+
+r @ 1
+conditiile sunt
+	<acceptare_job_nou> 'as accepta oferta daca sotul/sotia si copiii ar fi de acord sa vina cu mine'
+	<companie> familia
+concluzia este
+ 	<intocmire_familie> nivel_ridicat (fc=80).
+
+r @ 2
+conditiile sunt
+	<acceptare_job_nou> 'as accepta oferta daca sotul/sotia si copiii ar fi de acord sa vina cu mine'
+	<companie> familia
+	<numar_copii> '>3'
+concluzia este
+ 	<intocmire_familie> nivel_ridicat (fc=90).
+
+r @ 3
+conditia este
+	<acceptare_job_nou> 'as refuza oferta gandindu-ma ca dinamica familiei ar avea de suferit'
+concluzia este
+ 	<intocmire_familie> nivel_ridicat (fc=95).
+
+r @ 4
+conditiile sunt
+	<acceptare_job_nou> 'as accepta oferta daca sotul/sotia si copiii ar fi de acord sa vina cu mine'
+	<companie> amicii
+concluzia este
+ 	<intocmire_familie> nivel_mediu (fc=70).
+
+r @ 5
+conditiile sunt
+	<acceptare_job_nou> 'as accepta oferta daca sotul/sotia si copiii ar fi de acord sa vina cu mine'
+	<companie> amicii
+	<numar_copii> '0'
+concluzia este
+ 	<intocmire_familie> nivel_mediu (fc=80).
+
+r @ 6
+conditiile sunt
+	<acceptare_job_nou> 'as accepta oferta daca sotul/sotia si copiii ar fi de acord sa vina cu mine'
+	<companie> singur
+concluzia este
+ 	<intocmire_familie> nivel_mediu (fc=95).
+
+r @ 7
+conditia este
+	<acceptare_job_nou> 'as accepta oferta categoric'
+concluzia este
+ 	<intocmire_familie> nivel_redus (fc=95).
+
+r @ 8
+conditiile sunt
+	<abordare_facultate> 'particip doar la seminarii'
+	<sacrificiu> 'categoric da'
+concluzia este
+	<responsabilitate> nivel_ridicat (fc=80).
+
+r @ 9
+conditiile sunt
+	<abordare_facultate> 'particip doar la seminarii'
+	<sacrificiu> 'categoric da'
+	<ordine>
+concluzia este
+	<responsabilitate> nivel_ridicat (fc=90).
+
+r @ 10
+conditia este
+	<abordare_facultate> 'nu ratez niciun curs'
+concluzia este
+	<responsabilitate> nivel_ridicat (fc=95).
+
+r @ 11 
+conditiile sunt
+	<abordare_facultate> 'particip doar la seminarii'
+	<sacrificiu> 'depinde cat de departe este locatia respectiva de locuinta mea'
+concluzia este
+	<responsabilitate> nivel_mediu (fc=70).
+
+r @ 12 
+conditiile sunt
+	<abordare_facultate> 'particip doar la seminarii'
+	<sacrificiu> 'depinde cat de departe este locatia respectiva de locuinta mea'
+	! <ordine>
+concluzia este
+	<responsabilitate> nivel_mediu (fc=80).
+
+r @ 13 
+conditiile sunt
+	<abordare_facultate> 'ma prezint doar cand este necesar'
+	<sacrificiu> 'categoric da'
+concluzia este
+	<responsabilitate> nivel_mediu (fc=95).
+
+r @ 14 
+conditiile sunt
+	<abordare_facultate> 'ma prezint doar cand este necesar'
+	<sacrificiu> 'depinde cat de departe este locatia respectiva de locuinta mea'
+concluzia este
+	<responsabilitate> nivel_scazut (fc=80).
+
+r @ 15 
+conditiile sunt
+	<abordare_facultate> 'ma prezint doar cand este necesar'
+	<sacrificiu> 'depinde cat de departe este locatia respectiva de locuinta mea'
+	! <ordine>
+concluzia este
+	<responsabilitate> nivel_scazut (fc=90).
+
+r @ 16 
+conditiile sunt
+	<abordare_facultate> 'ma prezint doar cand este necesar'
+	<sacrificiu> 'in niciun caz, e ora 01:00!'
+concluzia este
+	<responsabilitate> nivel_scazut (fc=95).
+
+r @ 17
+conditiile sunt 
+	<timp_liber> 'merg la sala'
+	<cumparaturi> hypermarket
+concluzia este
+	<stil_de_viata> activ (fc=70).
+
+r @ 18
+conditiile sunt 
+	<timp_liber> 'merg la sala'
+	<cumparaturi> hypermarket
+	<loc_vacanta> 'la munte sau la mare'
+concluzia este
+	<stil_de_viata> activ (fc=75).
+
+r @ 19
+conditiile sunt
+	<timp_liber> 'merg la sala'
+	<cumparaturi> aprozar
+concluzia este
+	<stil_de_viata> activ (fc=80).
+
+r @ 20
+conditiile sunt 
+	<timp_liber> 'merg la sala'
+	<cumparaturi> aprozar
+	<loc_vacanta> 'la munte sau la mare'
+concluzia este
+	<stil_de_viata> activ (fc=90).
+
+r @ 21
+conditia este 
+	<timp_liber> 'ma plimb cu bicicleta sau fac jogging'
+concluzia este
+	<stil_de_viata> activ (fc=95).
+
+r @ 22
+conditiile sunt 
+	<timp_liber> 'merg la sala'
+	<cumparaturi> online
+concluzia este
+	<stil_de_viata> linistit (fc=60).
+
+r @ 23
+conditiile sunt
+	<timp_liber> 'merg la sala'
+	<cumparaturi> online
+        <loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> linistit (fc=70).
+
+r @ 24
+conditiile sunt
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<cumparaturi> aprozar
+concluzia este
+	<stil_de_viata> linistit (fc=72).
+
+r @ 25
+conditiile sunt 
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<cumparaturi> aprozar
+        <loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> linistit (fc=74).
+
+
+r @ 26
+conditiile sunt
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<cumparaturi> hypermarket
+concluzia este
+	<stil_de_viata> linistit (fc=76).
+
+r @ 27
+conditiile sunt
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<cumparaturi> hypermarket
+        <loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> linistit (fc=80).
+
+r @ 28
+conditiile sunt
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<cumparaturi> online
+concluzia este
+	<stil_de_viata> linistit (fc=90).
+
+r @ 29
+conditiile sunt
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<cumparaturi> online
+        <loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> linistit (fc=95).
+
+r @ 30
+conditiile sunt
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+	<cumparaturi> aprozar
+concluzia este
+	<stil_de_viata> sedentar (fc=70).
+
+r @ 31
+conditiile sunt
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+	<cumparaturi> aprozar 
+	<loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> sedentar (fc=75).
+
+r @ 32
+conditiile sunt
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+	<cumparaturi> hypermarket
+concluzia este
+	<stil_de_viata> sedentar (fc=80).
+
+r @ 33
+conditiile sunt
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+	<cumparaturi> hypermarket
+	<loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> sedentar (fc=85).
+
+r @ 34
+conditiile sunt
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+	<cumparaturi> online
+concluzia este
+	<stil_de_viata> sedentar (fc=90).
+
+r @ 35
+conditiile sunt
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+	<cumparat> online
+	<loc_vacanta> acasa
+concluzia este
+	<stil_de_viata> sedentar (fc=95).
+
+r @ 36
+conditiile sunt
+	<acceptare_compliment> 'ziua mea tocmai a devenit mai buna!'
+	<teama_imbatranire> 'nimic deosebit'
+concluzia este
+	<apreciere_de_sine> nivel_ridicat (fc=85).
+
+r @ 37
+conditiile sunt
+	<acceptare_compliment> 'ziua mea tocmai a devenit mai buna!'
+	<teama_imbatranire> 'nimic deosebit'
+	<alegere_tinuta> ingrijit
+concluzia este
+	<apreciere_de_sine> nivel_ridicat (fc=90).
+
+r @ 38
+conditia este
+	<acceptare_compliment> 'ii multumesc, insa nu ma influenteaza complimentul lui'
+concluzia este 
+	<apreciere_de_sine> nivel_ridicat (fc=95).
+
+r @ 39
+conditiile sunt
+	<acceptare_compliment> 'ziua mea tocmai a devenit mai buna!'
+	<teama_imbatranire> anxietate
+concluzia este
+	<apreciere_de_sine> nivel_mediu (fc=85).
+
+r @ 40
+conditiile sunt
+	<acceptare_compliment> 'ziua mea tocmai a devenit mai buna!'
+	<teama_imbatranire> anxietate
+	<alegere_tinuta> nepasator
+concluzia este
+	<apreciere_de_sine> nivel_mediu (fc=87).
+
+r @ 41
+conditiile sunt
+	<acceptare_compliment> 'ziua mea tocmai a devenit mai buna!'
+	<teama_imbatranire> groaza
+concluzia este
+	<apreciere_de_sine> nivel_mediu (fc=92).
+
+r @ 42
+conditiile sunt
+	<acceptare_compliment> 'ziua mea tocmai a devenit mai buna!'
+	<teama_imbatranire> groaza
+	<alegere_tinuta> nepasator
+concluzia este
+	<apreciere_de_sine> nivel_mediu (fc=95).
+
+r @ 43
+conditia este 
+	<acceptare_compliment> 'ii multumesc, dar sunt sigur ca nu crede asa'
+concluzia este
+	<apreciere_de_sine> nivel_scazut (fc=95).
+
+r @ 44
+conditiile sunt
+	<apreciere_de_sine> nivel_mediu
+	<asumare_riscuri> 'ma bazez pe instinct'
+concluzia este
+	<indraznire> nivel_ridicat (fc=85).
+
+r @ 45
+conditiile sunt
+	<apreciere_de_sine> nivel_mediu
+	<asumare_riscuri> 'ma bazez pe instinct'
+	<nepasare> 'rad de situatie'
+concluzia este
+	<indraznire> nivel_ridicat (fc=90).
+
+r @ 46
+conditia este
+	<apreciere_de_sine> nivel_ridicat
+concluzia este
+	<indraznire> nivel_ridicat (fc=95).
+
+r @ 47
+conditiile sunt
+	<apreciere_de_sine> nivel_mediu
+	<asumare_riscuri> 'analizez toate optiunile posibile'
+concluzia este
+	<indraznire> nivel_mediu (fc=90).
+
+r @ 48
+conditiile sunt
+	<apreciere_de_sine> nivel_mediu
+	<asumare_riscuri> 'analizez toate optiunile posibile'
+	<nepasare> 'sunt indignat pentru ca voi sta murdar intreaga zi'
+concluzia este
+	<indraznire> nivel_mediu (fc=95).
+
+r @ 49
+conditiile sunt
+	<apreciere_de_sine> nivel_mediu
+	<asumare_riscuri> 'cer sfatul cuiva apropiat'
+concluzia este
+	<indraznire> nivel_scazut (fc=85).
+
+r @ 50
+conditiile sunt
+	<apreciere_de_sine> nivel_mediu
+	<asumare_riscuri> 'cer sfatul cuiva apropiat'
+	<nepasare> 'ma duc acasa sa ma schimb si apoi ma ocup de treburile pe care le aveam in plan'
+concluzia este
+	<indraznire> nivel_scazut (fc=90).
+
+r @ 51
+conditia este
+	<apreciere_de_sine> nivel_scazut
+concluzia este
+	<indraznire> nivel_scazut (fc=95).
+
+r @ 52
+conditia este
+	<glume> intotdeauna
+concluzia este
+	<sobrietate> nivel_scazut (fc=95).
+
+r @ 53
+conditia este
+	<glume> uneori
+concluzia este
+	<sobrietate> nivel_mediu (fc=90).
+
+r @ 54
+conditiile sunt
+	<glume> uneori
+	<spontaneitate>
+concluzia este
+	<sobrietate> nivel_mediu (fc=95).
+
+r @ 55
+conditia este
+	<glume> niciodata
+concluzia este
+	<sobrietate> nivel_ridicat (fc=95).
+
+r @ 56
+conditia este
+	<intalnire_ideala> 'pe malul marii'
+concluzia este
+	<romantism> nivel_ridicat (fc=90).
+
+r @ 57
+conditiile sunt
+	<intalnire_ideala> 'pe malul marii'
+	<gen_film> romantic
+concluzia este
+	<romantism> nivel_ridicat (fc=95).
+
+r @ 58
+conditia este
+	<intalnire_ideala> acasa
+concluzia este
+	<romantism> nivel_mediu (fc=80).
+
+r @ 59
+conditiile sunt
+	<intalnire_ideala> acasa
+	<gen_film> romantic
+concluzia este
+	<romantism> nivel_mediu (fc=90).
+
+r @ 60
+conditia este
+	<intalnire_ideala> 'in club'
+concluzia este
+	<romantism> nivel_scazut (fc=95).
+
+r @ 61
+conditia este
+	<situatie_critica> nervi
+concluzia este
+	<temperament> coleric (fc=95).
+
+r @ 62
+conditia este
+	<situatie_critica> panica
+concluzia este
+	<temperament> melancolic (fc=80).
+
+r @ 63
+conditiile sunt
+	<situatie_critica> panica
+	<indraznire> nivel_mediu
+concluzia este
+	<temperament> melancolic (fc=90).
+
+r @ 64
+conditiile sunt
+	<situatie_critica> panica
+	<indraznire> nivel_mediu
+	<stil_de_viata> linistit
+concluzia este
+	<temperament> melancolic (fc=95).
+
+r @ 65 
+conditiile sunt
+	<situatie_critica> calm
+	<indraznire> nivel_ridicat
+concluzia este
+	<temperament> sangvin (fc=90).
+
+r @ 66 
+conditiile sunt
+	<situatie_critica> calm
+	<indraznire> nivel_ridicat
+	<stil_de_viata> activ
+concluzia este
+	<temperament> sangvin (fc=95).
+
+r @ 67
+conditiile sunt
+	<situatie_critica> calm
+	<indraznire> nivel_scazut
+concluzia este
+	<temperament> flegmatic (fc=90).
+
+r @ 68
+conditiile sunt
+	<situatie_critica> calm
+	<indraznire> nivel_scazut
+	<stil_de_viata> sedentar
+concluzia este
+	<temperament> flegmatic (fc=95).
+
+
+r @ 69
+conditiile sunt
+	! <relatii_de_lunga_durata> 
+        <opinie_casatorie> 'este o etapa importanta in consolidarea unei relatii de cuplu'
+concluzia este 
+	<implicare_in_relatie> nivel_ridicat (fc=80).
+
+r @ 70
+conditiile sunt
+	! <relatii_de_lunga_durata> 
+	<opinie_casatorie> 'este o etapa importanta in consolidarea unei relatii de cuplu'
+        <responsabilitate> nivel_ridicat
+concluzia este 
+	<implicare_in_relatie> nivel_ridicat (fc=90).
+
+r @ 71
+conditiile sunt
+	<relatii_de_lunga_durata> 
+concluzia este 
+	<implicare_in_relatie> nivel_ridicat (fc=95).
+
+r @ 72
+conditiile sunt
+	! <relatii_de_lunga_durata>
+	<opinie_casatorie> 'familia nu trebuie sa fie strans legata de acest concept'
+concluzia este
+	<implicare_in_relatie> nivel_mediu (fc=80).
+
+r @ 73
+conditiile sunt
+	! <relatii_de_lunga_durata>
+	<opinie_casatorie> 'familia nu trebuie sa fie strans legata de acest concept'
+	<responsabilitate> nivel_mediu
+concluzia este
+	<implicare_in_relatie> nivel_mediu (fc=95).
+
+r @ 74
+conditiile sunt
+	! <relatii_de_lunga_durata>
+	<opinie_casatorie> 'nu consider ca este necesar'
+concluzia este
+	<implicare_in_relatie> nivel_scazut (fc=95).
+
+r @ 75
+conditiile sunt
+	<gen_muzica> rock
+	<utilizare_tehnologie> 'doar cand este nevoie'
+concluzia este
+	<mentalitate> urbana (fc=70).
+
+r @ 76
+conditiile sunt
+	<gen_muzica> rock
+	<utilizare_tehnologie> 'doar cand este nevoie'
+	<desfasurare_sarbatori> 'cu prietenii in oras'
+concluzia este
+	<mentalitate> urbana (fc=75).
+
+r @ 77
+conditiile sunt
+	<gen_muzica> rock
+	<utilizare_tehnologie> 'destul de des'
+concluzia este
+	<mentalitate> urbana (fc=80).
+
+r @ 78
+conditiile sunt
+	<gen_muzica> rock
+	<utilizare_tehnologie> 'destul de des'
+	<desfasurare_sarbatori> 'cu prietenii in oras'
+concluzia este
+	<mentalitate> urbana (fc=85).
+
+r @ 79
+conditiile sunt
+	<gen_muzica> rock
+	<utilizare_tehnologie> constant
+concluzia este
+	<mentalitate> urbana (fc=90).
+
+r @ 80
+conditiile sunt
+	<gen_muzica> rock
+	<utilizare_tehnologie> constant
+	<desfasurare_sarbatori> 'cu prietenii in oras'
+concluzia este
+	<mentalitate> urbana (fc=93).
+
+r @ 81
+conditia este
+	<gen_muzica> 'hip-hop/rap'
+concluzia este
+	<mentalitate> urbana (fc=95).
+
+r @ 82
+conditia este
+	<gen_muzica> populara
+concluzia este
+	<mentalitate> traditionala (fc=70).
+
+r @ 83
+conditiile sunt
+	<gen_muzica> populara
+	<utilizare_tehnologie> 'doar cand este nevoie'
+concluzia este
+	<mentalitate> traditionala (fc=80).
+
+
+r @ 84
+conditiile sunt
+	<gen_muzica> populara
+	<utilizare_tehnologie> 'doar cand este nevoie'
+	<relatie_divinitate> puternica
+concluzia este
+	<mentalitate> traditionala (fc=85).
+
+r @ 85
+conditiile sunt
+	<gen_muzica> populara
+	<utilizare_tehnologie> 'doar cand este nevoie'
+	<relatie_divinitate> puternica
+	<atributii_casnice>
+concluzia este
+	<mentalitate> traditionala (fc=90).
+
+r @ 86
+conditiile sunt
+	<gen_muzica> populara
+	<utilizare_tehnologie> 'doar cand este nevoie'
+	<relatie_divinitate> puternica
+	<atributii_casnice>
+	<desfasurare_sarbatori> 'acasa, cu parintii'
+concluzia este
+	<mentalitate> traditionala (fc=95).
+
+r @ 87
+conditia este
+	<gen_muzica> pop
+concluzia este
+	<mentalitate> preoraseneasca (fc=70).
+
+r @ 88
+conditia este
+	<gen_muzica> pop
+	<utilizare_tehnologie> 'destul de des'
+concluzia este
+	<mentalitate> preoraseneasca (fc=75).
+	
+r @ 89
+conditiile sunt
+	<gen_muzica> pop
+	<utilizare_tehnologie> 'destul de des'
+	<atributii_casnice>
+concluzia este
+	<mentalitate> preoraseneasca (fc=80).	
+
+r @ 90
+conditiile sunt
+	<gen_muzica> pop
+	<utilizare_tehnologie> 'destul de des'
+	<atributii_casnice>
+	<relatie_divinitate> puternica
+concluzia este
+	<mentalitate> preoraseneasca (fc=90).
+
+r @ 91
+conditiile sunt
+	<gen_muzica> pop
+	<utilizare_tehnologie> 'destul de des'
+	<atributii_casnice>
+	<relatie_divinitate> puternica
+	<desfasurare_sarbatori> 'la rude'
+concluzia este
+	<mentalitate> preoraseneasca (fc=95).	
+
+r @ 92
+conditiile sunt
+	<sobrietate> nivel_mediu
+	<socializare> 'comunic cu prietenii, dar incerc sa schimb pareri si cu alte persoane'
+concluzia este
+	<comportament_extrovertit> nivel_ridicat (fc=80).
+
+r @ 93
+conditiile sunt
+	<sobrietate> nivel_mediu
+	<socializare> 'comunic cu prietenii, dar incerc sa schimb pareri si cu alte persoane'
+	<sinceritate>
+concluzia este
+	<comportament_extrovertit> nivel_ridicat (fc=90).
+
+r @ 94
+conditia este
+	<sobrietate> nivel_scazut
+concluzia este
+	<comportament_extrovertit> nivel_ridicat (fc=95).
+
+r @ 95
+conditiile sunt
+	<sobrietate> nivel_mediu
+	<socializare> 'nu imi place sa iau parte la evenimente'
+concluzia este
+	<comportament_extrovertit> nivel_mediu (fc=60).
+
+r @ 96
+conditiile sunt
+	<sobrietate> nivel_mediu
+	<socializare> 'nu imi place sa iau parte la evenimente'
+	! <sinceritate>
+concluzia este
+	<comportament_extrovertit> nivel_mediu (fc=70).
+
+r @ 97
+conditiile sunt
+	<sobrietate> nivel_mediu
+	<socializare> 'comunic doar cu prietenii mei'
+concluzia este
+	<comportament_extrovertit> nivel_mediu (fc=80).
+
+r @ 98
+conditiile sunt
+	<sobrietate> nivel_mediu
+	<socializare> 'comunic doar cu prietenii mei'
+	! <sinceritate>
+concluzia este
+	<comportament_extrovertit> nivel_mediu (fc=95).
+
+r @ 99
+conditia este
+	<sobrietate> nivel_ridicat
+concluzia este
+	<comportament_extrovertit> nivel_scazut (fc=95).
+
+r @ 100
+conditia este
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+concluzia este
+	<simt_artistic> (fc=90).
+
+r @ 101
+conditiile sunt
+	<timp_liber> 'exersez o indemanare (desen, cantat etc)'
+	<interes> arta
+concluzia este
+	<simt_artistic> (fc=95).
+
+r @ 102
+conditia este
+	<timp_liber> 'merg la sala'
+concluzia este
+	! <simt_artistic> (fc=95).
+
+r @ 103
+conditia este
+	<timp_liber> 'ma plimb cu bicicleta sau fac jogging'
+concluzia este
+	! <simt_artistic> (fc=95).
+
+r @ 104
+conditia este
+	<timp_liber> 'ma uit la seriale sau citesc o carte'
+concluzia este
+	! <simt_artistic> (fc=95).
+
+
+r @ 105
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<implicare_in_relatie> nivel_ridicat
+concluzia este
+	<student_cti> 'Costin Raileanu' (fc=70).
+
+r @ 106
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<implicare_in_relatie> nivel_ridicat
+	<intocmire_familie> nivel_ridicat
+concluzia este
+	<student_cti> 'Costin Raileanu' (fc=80).
+
+r @ 107
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<implicare_in_relatie> nivel_ridicat
+	<intocmire_familie> nivel_ridicat
+	<romantism> nivel_ridicat
+concluzia este
+	<student_cti> 'Costin Raileanu' (fc=90).
+
+r @ 108
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<implicare_in_relatie> nivel_ridicat
+	<intocmire_familie> nivel_ridicat
+	<romantism> nivel_ridicat
+	<simt_artistic>
+concluzia este
+	<student_cti> 'Costin Raileanu' (fc=95).
+
+r @ 109
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_ridicat
+concluzia este
+	<student_cti> 'Razvan Paraschiv' (fc=80).
+	
+r @ 110
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_ridicat
+	<mentalitate> urbana
+concluzia este
+	<student_cti> 'Razvan Paraschiv' (fc=90).
+
+r @ 111
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_ridicat
+	<mentalitate> urbana
+	<implicare_in_relatie> nivel_ridicat
+concluzia este
+	<student_cti> 'Razvan Paraschiv' (fc=95).
+
+r @ 112
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_ridicat
+concluzia este
+	<student_cti> 'Ionut Gheorghe (Ghita)' (fc=80).
+
+r @ 113
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_ridicat
+	<implicare_in_relatie> nivel_ridicat
+concluzia este
+	<student_cti> 'Ionut Gheorghe (Ghita)' (fc=90).
+
+r @ 114
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_ridicat
+	<implicare_in_relatie> nivel_ridicat
+	<mentalitate> preoraseneasca
+concluzia este
+	<student_cti> 'Ionut Gheorghe (Ghita)' (fc=95).
+
+r @ 115
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<comportament_extrovertit> nivel_mediu
+concluzia este
+	<student_cti> 'Ciprian Ghenceanu' (fc=80).
+
+r @ 116
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<comportament_extrovertit> nivel_mediu
+	<responsabilitate> nivel_ridicat
+concluzia este
+	<student_cti> 'Ciprian Ghenceanu' (fc=90).
+
+r @ 117
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> melancolic
+	<comportament_extrovertit> nivel_mediu
+	<responsabilitate> nivel_ridicat
+	<simt_artistic>
+concluzia este
+	<student_cti> 'Ciprian Ghenceanu' (fc=95).
+
+r @ 118
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<acceptare_job_nou> categoric
+	<numar_copii> '0'
+concluzia este
+	<student_cti> 'Ana Caluian' (fc=90).
+
+r @ 119
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<acceptare_job_nou> categoric
+	<numar_copii> '0'
+	<apreciere_de_sine> nivel_scazut
+concluzia este
+	<student_cti> 'Ana Caluian' (fc=95).
+
+r @ 120
+conditiile sunt
+	<orientare> ambele
+	<intocmire_familie> nivel_ridicat
+	<comportament_extrovertit> nivel_mediu
+concluzia este
+	<student_cti> 'Maria Rotariu' (fc=80).
+
+r @ 121
+conditiile sunt
+	<orientare> ambele
+	<intocmire_familie> nivel_ridicat
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> sedentar
+concluzia este
+	<student_cti> 'Maria Rotariu' (fc=90).
+
+r @ 122
+conditiile sunt
+	<orientare> fete
+	<intocmire_familie> nivel_ridicat
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> sedentar
+	<romantism> nivel_ridicat
+concluzia este
+	<student_cti> 'Maria Rotariu' (fc=95).
+
+r @ 123
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+concluzia este
+	<student_cti> 'Mihaela Tocana' (fc=50).
+
+r @ 124
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> activ
+concluzia este
+	<student_cti> 'Mihaela Tocana' (fc=90).
+
+r @ 125
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> activ
+	<mentalitate> preoraseneasca
+concluzia este
+	<student_cti> 'Mihaela Tocana' (fc=95).
+
+r @ 126
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_mediu
+concluzia este
+	<student_cti> 'Diana Tudosa' (fc=80).
+
+r @ 127
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_mediu
+	<mentalitate> urbana
+concluzia este
+	<student_cti> 'Diana Tudosa' (fc=90).
+
+r @ 128
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<temperament> sangvin
+	<comportament_extrovertit> nivel_mediu
+	<mentalitate> urbana
+	<simt_artistic>
+concluzia este
+	<student_cti> 'Diana Tudosa' (fc=95).
+
+r @ 129
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+concluzia este
+	<student_cti> 'Raluca Radu' (fc=50).
+
+r @ 130
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> linistit
+concluzia este
+	<student_cti> 'Raluca Radu' (fc=70).
+
+r @ 131
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> linistit
+	<responsabilitate> nivel_ridicat
+concluzia este
+	<student_cti> 'Raluca Radu' (fc=85).
+
+
+r @ 132
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<apreciere_de_sine> nivel_mediu
+	<comportament_extrovertit> nivel_mediu
+	<stil_de_viata> linistit
+	<responsabilitate> nivel_ridicat
+	<relatie_divinitate> puternica
+concluzia este
+	<student_cti> 'Raluca Radu' (fc=95).
+
+
+r @ 133
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<copmportament_extrovertit> nivel_mediu
+concluzia este
+	<student_cti> 'Radu Bobe' (fc=80).
+
+r @ 134
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<copmportament_extrovertit> nivel_mediu
+	<responsabilitate> nivel_ridicat
+concluzia este
+	<student_cti> 'Radu Bobe' (fc=90).
+
+r @ 135
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> sangvin
+	<copmportament_extrovertit> nivel_mediu
+	<responsabilitate> nivel_ridicat
+	<mentalitate> urbana
+concluzia este
+	<student_cti> 'Radu Bobe' (fc=95).
+
+r @ 136
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<temperament> sangvin
+	<copmportament_extrovertit> nivel_ridicat
+concluzia este
+	<student_cti> 'Alexandra Cazan' (fc=80).
+
+r @ 137
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<temperament> sangvin
+	<copmportament_extrovertit> nivel_ridicat
+	<mentalitate> urbana
+concluzia este
+	<student_cti> 'Alexandra Cazan' (fc=90).
+
+r @ 138
+conditiile sunt
+	<gen> baiat
+	<orientare> fete
+	<temperament> sangvin
+	<copmportament_extrovertit> nivel_ridicat
+	<mentalitate> urbana
+	<interes> sport
+concluzia este
+	<student_cti> 'Alexandra Cazan' (fc=95).
+
+r @ 139
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> coleric
+	<copmportament_extrovertit> nivel_scazut
+concluzia este
+	<student_cti> 'Ion Rapeanu' (fc=80).
+
+r @ 140
+conditiile sunt
+	<gen> fata
+	<orientare> baieti
+	<temperament> coleric
+	<copmportament_extrovertit> nivel_scazut
+concluzia este
+	<student_cti> 'Ion Rapeanu' (fc=90).
+
+
+
+i @ gen
+textul este 'Esti'
+optiunile sunt fata, baiat.
+
+i @ orientare
+textul este 'Esti interesat de'
+optiunile sunt fete, baieti, ambele.
+
+i @ acceptare_job_nou
+textul este 'Ce ai face daca ai fi casatorit, ai avea un job in tara si ti s-ar oferi oportunitatea de a lucra pe un post foarte bine platit în strainatate?'
+optiunile sunt 'as accepta oferta categoric', 'as accepta oferta daca sotul/sotia si copiii ar fi de acord sa vina cu mine', 'as refuza oferta gandindu-ma ca dinamica familiei ar avea de suferit'.
+
+i @ numar_copii
+textul este 'Cati copii ai vrea sa ai?'
+optiunile sunt '0', '1-3', '>3'.
+
+i @ companie
+textul este 'Cu cine ti-ar placea sa pleci intr-o vacanta la mare?'
+optiunile sunt singur, familia, amicii.
+
+i @ abordare_facultate
+textul este 'Cum evaluezi prezenta ta la facultate?'
+optiunile sunt 'nu ratez niciun curs', 'particip doar la seminarii', 'ma prezint doar cand este necesar'.
+
+i @ sacrificiu
+textul este 'La ora 01:00, afli ca unul din colegii tai apropiati se afla la un local de la periferia Bucurestiului si a ramas fara bani pentru a achita nota. Incerci sa il ajuti?'
+optiunile sunt 'categoric da', 'depinde cat de departe este locatia respectiva de locuinta mea', 'in niciun caz, e ora 01:00!'.
+
+i @ ordine
+textul este 'Te consideri o persoana ordonata?'
+optiunile sunt da, nu.
+
+i @ timp_liber
+textul este 'Ce iti place sa faci in timpul liber?'
+optiunile sunt 'ma uit la seriale sau citesc o carte', 'exersez o indemanare (desen, cantat etc)', 'ma plimb cu bicicleta sau fac jogging', 'merg la sala'.
+
+i @ cumparaturi
+textul este 'De unde iti faci cumparaturile?'
+optiunile sunt online, hypermarket, aprozar.
+
+i @ loc_vacanta
+textul este 'Unde ti-ar placea sa iti petreci vacanta?'
+optiunile sunt 'la munte sau la mare', 'intr-un oras turistic', acasa.
+
+i @ acceptare_compliment
+textul este 'Cineva iti complimenteaza vestimentatia. Cum reactionezi?'
+optiunile sunt 'ziua mea tocmai a devenit mai buna!', 'ii multumesc, insa nu ma influenteaza complimentul lui', 'ii multumesc, dar sunt sigur ca nu crede asa'.
+
+i @ teama_imbatranire
+textul este 'Ce simti cand te proiectezi intr-un moment la batranete?'
+optiunile sunt 'nimic deosebit', anxietate, groaza.
+
+i @ alegere_tinuta
+textul este 'Cum te imbraci intr-o zi obisnuita?'
+optiunile sunt relaxat, ingrijit, nepasator.
+
+i @ asumare_riscuri
+textul este 'Ce faci cand ai o decizie importanta de luat?'
+optiunile sunt 'ma bazez pe instinct', 'analizez toate optiunile posibile', 'cer sfatul cuiva apropiat'.
+
+i @ nepasare
+textul este 'O masina de pe sosea intra intr-o groapa cu noroi si te murdareste din cap pana in picioare. Ce faci?'
+optiunile sunt 'rad de situatie', 'sunt indignat pentru ca voi sta murdar intreaga zi', 'ma duc acasa sa ma schimb si apoi ma ocup de treburile pe care le aveam in plan'.
+
+i @ glume
+textul este 'Te regasesti in rolul de mascota a grupului tau de prieteni?'
+optiunile sunt niciodata, uneori, intotdeauna.
+
+i @ spontaneitate
+textul este 'Te consideri o persoana spontana?'
+optiunile sunt da, nu.
+
+i @ intalnire_ideala
+textul este 'Cum arata intalnirea ideala pentru tine?'
+optiunile sunt 'in club', acasa, 'pe malul marii'.
+
+i @ gen_film
+textul este 'Ce gen de film preferi?'
+optiunile sunt actiune, drama, romantic, thriller.
+
+i @ situatie_critica
+textul este 'Ce cuvant te descrie cel mai bine cand te afli intr-o situatie critica?'
+optiunile sunt calm, nervi, panica.
+
+i @ relatii_de_lunga_durata
+textul este 'Ai avut relatii de lunga durata pana acum?'
+optiunile sunt da, nu.
+
+i @ opinie_casatorie
+textul este 'Ce parere ai despre casatorie?'
+optiunile sunt 'este o etapa importanta in consolidarea unei relatii de cuplu', 'familia nu trebuie sa fie strans legata de acest concept', 'nu consider ca este necesara'.
+
+i @ atributii_casnice
+textul este 'Iti insusesti atributii casnice?'
+optiunile sunt da, nu.
+
+i @ gen_muzica
+textul este 'Ce gen de muzica preferi?'
+optiunile sunt pop, rock, 'hip-hop/rap', populara.
+
+i @ relatie_divinitate
+textul este 'Cum descrii relatia ta cu divinitatea?'
+optiunile sunt puternica, 'poate fi imbunatatita', 'nu sunt o persoana credincioasa'.
+
+i @ desfasurare_sarbatori
+textul este 'Alege o modalitate de a-ti petrece sarbatorile'
+optiunile sunt 'acasa, cu parintii', 'la rude', 'cu prietenii in oras'.
+
+i @ utilizare_tehnologie
+textul este 'Cat de prezenta este tehnologia in viata ta?'
+optiunile sunt constant, 'destul de des', 'doar cand este nevoie'.
+
+i @ sinceritate
+textul este 'Te simti confortabil sa iti recunosti greselile?'
+optiunile sunt da, nu.
+
+i @ socializare
+textul este 'Cum te comporti la un eveniment?'
+optiunile sunt 'comunic cu prietenii, dar incerc sa schimb pareri si cu alte persoane', 'comunic doar cu prietenii mei', 'nu imi place sa iau parte la evenimente'.
+
+i @ interes
+textul este 'De obicei, cauti pe internet informatii despre...'
+optiunile sunt arta, sport, istorie, geografie, gastronomie, tehnologie.
