@@ -1,4 +1,4 @@
-# CTI isi da intalniri
+# CTI își dă întâlniri
 
 Un sistem expert este un program care se comportă ca un expert într-un domeniu restrâns. Caracteristica majoră a sistemelor expert, numite și sisteme bazate pe cunoștințe, este aceea că ele se bazează pe cunoștințele unui expert uman în domeniul care este studiat. Mai exact, ele se sprijină pe cunoștințele expertului uman asupra strategiilor de rezolvare a problemelor specifice domeniului. Astfel, la baza sistemelor expert se află utilizarea în rezolvarea problemelor a unor mari cantități de cunoștințe specifice domeniului.
 
